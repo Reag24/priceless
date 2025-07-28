@@ -552,6 +552,56 @@ const PrivacyPolicyPage = () => (
     </Card>
   </div>
 );
+// ... existing imports and other components
+
+const BlogPage = () => (
+  <div className="min-h-screen bg-background py-16 px-4">
+    <div className="max-w-4xl mx-auto">
+      <h1 className="text-4xl font-bold text-primary mb-6">Full Roof Replacement Checklist for Wilmington, Leland, and the 910 Area</h1>
+
+      <article className="mb-12">
+        <p className="text-muted-foreground mb-4">
+          Here’s everything we usually replace on a full, up-to-code roof job in <strong>#wilmingtonnc</strong> and the 910:
+        </p>
+
+        <ol className="list-decimal list-inside space-y-2 text-muted-foreground">
+          <li><strong>Shingles or Metal</strong> – your roof material, the one everyone knows</li>
+          <li><strong>Underlayment</strong> – the water resistant barrier put down under your shingles</li>
+          <li><strong>Starter Strip</strong> – on the first row of shingles (stops wind uplift)</li>
+          <li><strong>Ridge Cap</strong> – the shingles that cover the peak of your roof</li>
+          <li><strong>Drip Edge</strong> – metal trim that keeps water off your fascia (located right between your shingles and fascia)</li>
+          <li><strong>Flashing</strong> – metal pieces that seal around chimneys, walls, and exposed areas</li>
+          <li><strong>Pipe Boots</strong> – rubber seals around plumbing vents</li>
+          <li><strong>Ventilation</strong> – ridge vents, box vents, or turbines to keep airflow moving</li>
+          <li><strong>Decking</strong> – the wood sheathing under your roof underlayment (only rotted decking usually gets replaced)</li>
+          <li><strong>Fascia Repairs</strong> – if damaged or rotted</li>
+          <li><strong>Nails</strong> – 6 per shingle</li>
+        </ol>
+
+        <p className="mt-4 text-muted-foreground">
+          We also clean up every nail, protect landscaping, and leave your property better than we found it.
+        </p>
+
+        <p className="mt-4 text-muted-foreground">
+          Thinking about a new roof?<br />
+          Get a free inspection, estimate, and a breakdown like this.
+        </p>
+
+        <p className="mt-4 text-sm text-muted-foreground italic">
+          #wilmingtonnc #wilmingtonncrealestate #LelandNC #hampstead #surfcitync #southportnc #castlehaynenc #roofing
+        </p>
+
+        <div className="mt-8 text-center">
+          <Link to="/">
+            <Button size="lg" className="text-lg">
+              ⬅️ Back to Home
+            </Button>
+          </Link>
+        </div>
+      </article>
+    </div>
+  </div>
+);
 
 function App() {
   return (
@@ -561,6 +611,8 @@ function App() {
         <Route path="/contact" element={<ContactPage />} />
         <Route path="/thankyou" element={<ThankYouPage />} />
         <Route path="/privacy" element={<PrivacyPolicyPage />} />
+<Route path="/blog" element={<BlogPage />} />
+     
       </Routes>
     </Router>
   );
