@@ -603,8 +603,6 @@ const RoofChecklist = () => (
   </div>
 );
 
-export default RoofChecklist;
-
 import RoofChecklist from "./pages/RoofChecklist";
 
 function App() {
@@ -622,3 +620,4 @@ function App() {
 }
 
 export default App;
+
