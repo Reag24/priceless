@@ -554,7 +554,7 @@ const PrivacyPolicyPage = () => (
 );
 // ... existing imports and other components
 
-const BlogPage = () => (
+const RoofChecklist = () => (
   <div className="min-h-screen bg-background py-16 px-4">
     <div className="max-w-4xl mx-auto">
       <h1 className="text-4xl font-bold text-primary mb-6">Full Roof Replacement Checklist for Wilmington, Leland, and the 910 Area</h1>
@@ -603,6 +603,8 @@ const BlogPage = () => (
   </div>
 );
 
+import RoofChecklist from "./components/RoofChecklist";
+
 function App() {
   return (
     <Router>
@@ -611,13 +613,10 @@ function App() {
         <Route path="/contact" element={<ContactPage />} />
         <Route path="/thankyou" element={<ThankYouPage />} />
         <Route path="/privacy" element={<PrivacyPolicyPage />} />
-<Route path="/blog" element={<BlogPage />} />
-     
+        <Route path="/blog/roof-checklist" element={<RoofChecklist />} />
       </Routes>
     </Router>
   );
 }
 
 export default App;
-
-
