@@ -603,6 +603,11 @@ const RoofChecklist = () => (
   </div>
 );
 
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import LandingPage from "./pages/LandingPage";
+import ContactPage from "./pages/ContactPage";
+import ThankYouPage from "./pages/ThankYouPage";
+import PrivacyPolicyPage from "./pages/PrivacyPolicyPage";
 import RoofChecklist from "./pages/RoofChecklist";
 
 function App() {
@@ -620,4 +625,3 @@ function App() {
 }
 
 export default App;
-
