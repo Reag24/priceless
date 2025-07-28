@@ -605,7 +605,7 @@ const RoofChecklist = () => (
 
 export default RoofChecklist;
 
-import RoofChecklist from "./components/RoofChecklist";
+import RoofChecklist from "./pages/RoofChecklist";
 
 function App() {
   return (
