@@ -603,6 +603,8 @@ const RoofChecklist = () => (
   </div>
 );
 
+export default RoofChecklist;
+
 import RoofChecklist from "./components/RoofChecklist";
 
 function App() {
